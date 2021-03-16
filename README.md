@@ -11,7 +11,8 @@
 ### Repository Folder Structure:
 
 - `ref/img` folders: contains references and images folder for the thesis (*LaTeX*) project.
-- `code_notebooks` folder: contains *Python* code and notebooks (*.ipynb*) used for the experiments. 
+- `code_notebooks` folder: contains *Python* code and notebooks (*.ipynb*) used for the experiments.
+- `code_models` folder: contains *Python* code of the model(s) implemented outside libraries. 
 - `.tex` file: contains thesis *LaTeX* document.
 
 ---
