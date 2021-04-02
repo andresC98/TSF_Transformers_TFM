@@ -20,15 +20,15 @@
 
 - [x] Benchmark Datasets (*[Traffic](https://archive.ics.uci.edu/ml/datasets/PEMS-SF), [Electricity](https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014)*) Datasets retrieval and preprocessing.
 - [x] Tests Forecasting using [Temporal Fusion Transformer (TFT)](https://arxiv.org/abs/1912.09363) architecture.
-- [ ] Tests manually implementing the [Enhancing the Locality ...](https://www.semanticscholar.org/paper/Enhancing-the-Locality-and-Breaking-the-Memory-of-SHIYANG-Jin/36e30516683032634975c53e60f3737b6e35ff80) Transformer Model) in *Pytorch-forecasting*.
-- [ ] Forecasting using [DeepAR](https://arxiv.org/abs/1704.04110) (deep model (non-transformer) baseline)
+- [x] Tests Forecasting using [DeepAR](https://arxiv.org/abs/1704.04110) architecture.
+- [ ] Manual implmenentation of the [Enhancing the Locality ...](https://www.semanticscholar.org/paper/Enhancing-the-Locality-and-Breaking-the-Memory-of-SHIYANG-Jin/36e30516683032634975c53e60f3737b6e35ff80) Transformer Model) in *Pytorch-forecasting*.
 - [ ] Forecasting using classical methods (ETS, ARIMA,...) (classical time series forecasting baselines)
 - [ ] Provide links for experiment notebooks in *GoogleColab* playground notebooks.
 
 ---
 ### Relevant Results (WIP):
 
-Some images from relevant tests so far (Electr and Traffic datasets):
+Some images from relevant tests so far (*Electricity* and *Traffic* datasets):
 
 ![alt text](https://github.com/andresC98/TSF_Transformers_TFM//blob/main/img/repo_tft_electr_sample.png?raw=true)
 ![alt text](https://github.com/andresC98/TSF_Transformers_TFM//blob/main/img/repo_tft_electrimp_sample.png?raw=true)
