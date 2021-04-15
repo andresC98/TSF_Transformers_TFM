@@ -34,7 +34,7 @@ TODO, placeholder links.
 - [x] Tests Forecasting using [Temporal Fusion Transformer (TFT)](https://arxiv.org/abs/1912.09363) architecture.
 - [x] Tests Forecasting using [DeepAR](https://arxiv.org/abs/1704.04110) architecture.
 - [x] Tests Forecasting using [Informer](https://arxiv.org/pdf/2012.07436.pdf) Transformer architecture.
-- [ ] Forecasting using classical methods (ETS, ARIMA,...) (classical time series forecasting baselines).
+- [x] Forecasting using classical forecasting methods ((S)ARIMA, SES and Holt-Winters).
 - [ ] Hyperparameter Tuning and final forecasts/interpretation (generate plots) for TFT, DeepAR and Informer models.
 - [ ] Annotate / Decorate (last finishing touch) Test notebooks.
 - [ ] Provide links for experiment notebooks in *GoogleColab* playground notebooks.
