@@ -15,6 +15,9 @@
 - `utils` folder: contains *Python* code of some helper and plotting functions developed for the thesis. 
 - `.tex` file: contains thesis *LaTeX* document.
 
+#### Trained models: 
+For those models that training took considerable time, their trained checkpoint-model (heavy) files can be found [here available for download](https://drive.google.com/drive/folders/18SMaGidTDNXnJOI8_b7KUbnwvdns1AIu?usp=sharing).
+
 ---
 
 ### Test Notebooks (Colab links, TODO):
