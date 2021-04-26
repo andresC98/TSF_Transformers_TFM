@@ -12,6 +12,7 @@
 
 - `ref/img` folders: contains references and images folder for the thesis (*LaTeX*) project.
 - `code_notebooks` folder: contains *Python* code and notebooks (*.ipynb*) used for the experiments.
+- `data` folder: contains the benchmark (public) datasets used in the experiments. The complete processed ones are compressed in [bzip2](https://www.geeksforgeeks.org/bzip2-command-in-linux-with-examples/).
 - `utils` folder: contains *Python* code of some helper and plotting functions developed for the thesis. 
 - `.tex` file: contains thesis *LaTeX* document.
 
@@ -22,7 +23,7 @@ For those models that training took considerable time, their trained checkpoint-
 
 ### Test Notebooks (Colab links, TODO):
 
-TODO, placeholder links.
+TODO, placeholder links. While thesis not published: open in Colab the notebooks in the `code_notebooks` folder, not from these link.
 
 - Benchmark datasets (*Traffic* and *Electricity*) Retrieval and Aggregation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PhP8KzPXd0NlTXEx3s2PG0HgPWtvZyyz?usp=sharing)
 - *Temporal Fusion Transformer* (TFT) Tests:: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PhP8KzPXd0NlTXEx3s2PG0HgPWtvZyyz?usp=sharing)
