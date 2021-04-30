@@ -13,7 +13,6 @@
 - `ref/img` folders: contains references and images folder for the thesis (*LaTeX*) project.
 - `code_notebooks` folder: contains *Python* code and notebooks (*.ipynb*) used for the experiments.
 - `data` folder: contains the benchmark (public) datasets used in the experiments. The complete processed ones are compressed in [bzip2](https://www.geeksforgeeks.org/bzip2-command-in-linux-with-examples/).
-- `utils` folder: contains *Python* code of some helper and plotting functions developed for the thesis. 
 - `.tex` file: contains thesis *LaTeX* document.
 
 #### Trained models: 
@@ -39,16 +38,17 @@ TODO, placeholder links. While thesis not published: open in Colab the notebooks
 - [x] Tests Forecasting using [DeepAR](https://arxiv.org/abs/1704.04110) architecture.
 - [x] Tests Forecasting using [Informer](https://arxiv.org/pdf/2012.07436.pdf) Transformer architecture.
 - [x] Tests Forecasting using classical methods ((S)ARIMA, SES and Holt-Winters).
-- [x] Hyperparameter Tuning and final forecasts/interpretation (generate plots) for TFT, DeepAR and Informer models.
+- [x] Ensure proper comparability between final error metrics in models/datasets.
 - [ ] Annotate / Decorate (last finishing touch) Test notebooks.
 - [ ] Provide links for experiment notebooks in *GoogleColab* playground notebooks.
 - [ ] Write Master Thesis (Current progress: 5%).
 
 ---
-### Relevant Results (WIP):
+### Some extracted results:
 
-Some images from relevant tests so far (*Electricity* and *Traffic* datasets):
+Some images from notebook tests so far (*Electricity* and *Traffic* datasets):
 
+Examples: Temporal Fusion Transformer model predictions, attention and feature relevances:
 ![alt text](https://github.com/andresC98/TSF_Transformers_TFM//blob/main/img/repo_tft_electr_sample.png?raw=true)
 ![alt text](https://github.com/andresC98/TSF_Transformers_TFM//blob/main/img/repo_tft_electrimp_sample.png?raw=true)
 ![alt text](https://github.com/andresC98/TSF_Transformers_TFM//blob/main/img/repo_tft_traffic_sample.png?raw=true)
