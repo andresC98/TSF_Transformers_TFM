@@ -41,10 +41,19 @@ TODO, placeholder links. While thesis not published: open in Colab the notebooks
 - [x] Ensure proper comparability between final error metrics in models/datasets.
 - [ ] Annotate / Decorate (last finishing touch) Test notebooks.
 - [ ] Provide links for experiment notebooks in *GoogleColab* playground notebooks.
-- [ ] Write Master Thesis (Current progress: 5%).
+- [ ] Write Master Thesis (Current progress: 10%).
 
 ---
 ### Some extracted results:
+
+Mean Absolute Errors:
+
+|                          |   ARIMA  |    SES   | Holt-Winters | DeepAR  | Informer | TFT     |
+|--------------------------|:--------:|:--------:|--------------|---------|----------|---------|
+|    **Traffic (1-day)**   |  0.0188  |  0.0640  | 0.0236       | 0.0161  | 0.01050  | 0.0099  |
+|   **Traffic (1-week)**   |  0.0198  |  0.0757  | 0.0336       | 0.0147  | 0.01251  | 0.0105  |
+|  **Electricity (1-day)** | 84.2201  | 307.4311 | 75.6006      | 88.3992 | 69.8323  | 37.0946 |
+| **Electricity (1-week)** | 165.0958 | 308.4780 | 98.3879      | 64.1848 | 102.0774 | 50.8038 |
 
 Some images from notebook tests so far (*Electricity* and *Traffic* datasets):
 
