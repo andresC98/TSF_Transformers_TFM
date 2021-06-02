@@ -24,6 +24,8 @@ For those models that training took considerable time, their trained checkpoint-
 
 **Important note**: to view notebooks from these links, you must access them through a **UC3M mail** account. If you do not have a UC3M account, download the notebooks from the `code_notebooks` folder and open them in a [Google Colaboratory](https://colab.research.google.com/) environment.
 
+TODO: Update TFT and DeepAR shared link to new version.
+
 
 - Benchmark datasets (*Traffic* and *Electricity*) Retrieval and Aggregation: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tJsg_BSrCwPbeVFDrl-fKZnzds2HnA5L#offline=true&sandboxMode=true)
 - *Classical forecast methods* Tests: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11TkLkG_5l2bml42tw7OqZVnNHROCX-lA#offline=true&sandboxMode=true)
@@ -43,12 +45,12 @@ For those models that training took considerable time, their trained checkpoint-
 - [x] Ensure proper comparability between final error metrics in models/datasets.
 - [x] Provide links for experiment notebooks in *GoogleColab* playground notebooks.
 - [ ] Final review / decoration of Test notebooks.
-- [ ] Write Master Thesis (Current progress: 10%).
+- [ ] Write Master Thesis (Current progress: 60%).
 
 ---
 ### Some extracted results:
 
-- Benchmark results (Traffic and Electricity datasets, 1-day and 1-week forecast scenarios) Mean Absolute Errors:
+- Benchmark results (Traffic and Electricity datasets, 1-day and 1-week forecast scenarios) Mean Absolute Errors: TODO: UPDATE
 
 |                          |   ARIMA  |    SES   | Holt-Winters | DeepAR  | Informer | TFT     |
 |--------------------------|:--------:|:--------:|--------------|---------|----------|---------|
