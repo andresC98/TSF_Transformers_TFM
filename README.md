@@ -1,8 +1,8 @@
 # Time Series Forecasting using Transformers - Thesis Repository
 
-***(Work in Progress)*** Repository containing my Master Thesis for the M.Sc. Big Data Analytics, titled *"Time Series Forecasting using Transformers"*.
+Repository containing my Master Thesis for the M.Sc. Big Data Analytics, titled *"Time Series Forecasting using Transformers"*.
 
-- **Abstract:** *TODO*
+- **Abstract:** This repository contains the experimental work developed that has explored the usage of *Transformer* models for time-series forecasting. In particular, 5 different code notebooks host experiments with the *Electricity* and *Traffic* time-series benchmark datasets and a series of baseline classical models, together with the *DeepAR* deep model and two popular *Transformer* architectures: the *Informer* and the *Temporal Fusion Transformer*.
 - **Author:** *Andrés Carrillo López*
 - **Supervisor:** *Pablo Martínez Olmos*
 
@@ -14,7 +14,7 @@
 - `code_notebooks` folder: contains *Python* code and notebooks (*.ipynb*) used for the experiments.
 - `data` folder: contains the benchmark (public) datasets used in the experiments. The complete processed ones are compressed in [bzip2](https://www.geeksforgeeks.org/bzip2-command-in-linux-with-examples/).
 
-#### Trained models: 
+### Trained models: 
 For those models that training took considerable time, their trained checkpoint-model (heavy) files can be found [here available for download](https://drive.google.com/drive/folders/18SMaGidTDNXnJOI8_b7KUbnwvdns1AIu?usp=sharing).
 
 ---
@@ -42,7 +42,7 @@ For those models that training took considerable time, their trained checkpoint-
 - [x] Ensure proper comparability between final error metrics in models/datasets.
 - [x] Provide links for experiment notebooks in *GoogleColab* playground notebooks.
 - [x] Final review / decoration of Test notebooks.
-- [ ] Write Master Thesis (Current progress: 80%).
+- [X] Master Thesis (Current progress: 100%).
 
 ---
 ### Some extracted results:
